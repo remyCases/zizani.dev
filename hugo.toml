@@ -1,0 +1,11 @@
+baseURL = 'https://zizani.dev/'
+locale = 'en-us'
+title = 'zizani.dev'
+theme = 'ananke'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
