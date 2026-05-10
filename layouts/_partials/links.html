@@ -1,0 +1,10 @@
+{{ with .Params.links }}
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">External links:</p>
+    <ul class="pa0 list">
+      {{ range . }}
+        <li  class="mb2"><a href="{{ .link }}">{{ .name }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+{{- end -}}

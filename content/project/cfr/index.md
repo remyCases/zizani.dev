@@ -1,5 +1,5 @@
 ---
-title: "CFR Simultaneous"
+title: "Counterfactual Regret"
 description: "Finding optimal strategies in normal-form games using counterfactual regret minimization and monte-carlo sampling"
 date: 2022-11-27
 tags: ["c99", "statistics", "game-theory", "taocp", "complete project"]
@@ -10,7 +10,7 @@ params:
 
 toc: true
 
-github: "https://github.com/remyCases/CFR_simultaneous"
+links: [{link: "https://github.com/remyCases/CFR_simultaneous", name: "GitHub"}]
 ---
 
 ## Motivation
