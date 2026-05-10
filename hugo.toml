@@ -3,9 +3,16 @@ locale = 'en-us'
 title = 'zizani.dev'
 theme = 'ananke'
 
+[params]
+  description = 'A collection of things I did'
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
       [markup.goldmark.extensions.passthrough]
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
+  [markup.tableOfContents]
+    endLevel = 2
+    ordered = true
+    startLevel = 2
