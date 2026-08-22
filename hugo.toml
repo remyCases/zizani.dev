@@ -5,7 +5,7 @@ theme = 'ananke'
 
 [params]
   description = 'A collection of things I did'
-  mainSections = ['project', 'devlog']
+  mainSections = ['project', 'devlog', 'modding']
 
 [markup]
   [markup.goldmark]
